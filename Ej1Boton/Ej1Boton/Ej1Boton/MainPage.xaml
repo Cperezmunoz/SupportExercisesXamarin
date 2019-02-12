@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:Ej1Boton"
+             x:Class="Ej1Boton.MainPage">
+
+    <StackLayout>
+        <!-- Place new controls here -->
+        <Label Text="Welcome to Xamarin.Forms!" 
+           HorizontalOptions="Center"
+           VerticalOptions="CenterAndExpand" />
+        <Button
+            Text="Boton redondo compi!!"
+    WidthRequest      ="100"
+    HeightRequest     ="100"
+    CornerRadius      ="70"
+    VerticalOptions   ="Center"
+    HorizontalOptions ="Center"
+    BackgroundColor   ="#00FFFF"/>
+    </StackLayout>
+
+</ContentPage>
